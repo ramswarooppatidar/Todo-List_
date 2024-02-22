@@ -1,0 +1,147 @@
+body {
+    /* background-image: url('.\asset\image.jpeg'); */
+    font-family: Arial, sans-serif;
+    background-color: #010931;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: auto;
+    width: 61vw;
+    background-color: #036570;
+    /* background-color: #000000; */
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+}
+
+#input-field {
+    width: 90%;
+    height: 10%;
+    margin-left: 35px;
+    /* border: 1px solid rgb(126, 109, 109); */
+    /* border-radius: 15px; */
+}
+
+#input-text2 {
+    width: 89%;
+    height: 100%;
+    float: left;
+    font-size: 27px;
+    border-radius: 15px;
+}
+
+#input-send {
+    width: 10%;
+    height: 100%;
+    float: right;
+}
+
+button {
+    height: 100%;
+    width: 100%;
+    border-radius: 15%;
+    margin-left: -5px;
+    /* border-radius: 15px; */
+}
+
+#input-send button:hover {
+    font-size: 15px;
+    border-radius: 20%;
+}
+
+#list {
+    max-height: 60vh; /* Limit the height of the container */
+    overflow-y: auto; /* Add vertical scrollbar when content overflows */
+    /* border: 1px solid rgb(126, 109, 109); */
+    border-bottom: 1px solid white;
+    border-radius: 1px solid rgb(198, 139, 139);
+}
+
+ul {
+    padding: 10px; /* Remove default padding */
+}
+
+ul li {
+    list-style: none;
+    border-bottom: 2px solid white;
+}
+#list ul li:hover{
+    font-size: 18px;
+}
+
+.list-div::after {
+    content: "";
+    display: table;
+    clear: both; /* Clear floats */
+}
+
+.list-div .circle {
+    margin-left: 15px;
+    float: left;
+}
+
+.list-div .circle h2 {
+    margin-left: -27px;
+    color: gray;
+}
+
+.list-div .content {
+    float: left;
+    /* ADD NEW AFTER */
+    width: 75%;
+    font-weight: lighter;
+}
+
+.list-div .content h2 {
+    color: rgb(190, 182, 182);
+    font-weight: lighter;
+}
+
+.list-div button {
+    float: right;
+    margin-left: 10px;
+    border: 1px;
+    border-radius: 10%;
+    font-size: 20px;
+    color: rgb(253, 10, 10);
+    /* ADD NEW RAM */
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.list-div button:hover {
+    background: rgb(1, 12, 73);
+    color: white;
+    font-size: 21px;
+}
+
+.list-div {
+    /* border: 2px solid black; */
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+/* add task count */
+#total-Task {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#total-Task span:first-child {
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgb(188, 184, 189);
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
